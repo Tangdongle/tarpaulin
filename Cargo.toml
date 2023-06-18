@@ -29,9 +29,9 @@ fallible-iterator = "0.3.0"
 gimli = "0.27.3"
 git2 = "0.17"
 humantime-serde = "1"
-indexmap = { version = "~1.8", features = ["serde-1"] }
+indexmap = { version = "~1.9", features = ["serde-1"] }
 lazy_static = "1.0"
-llvm_profparser = { version = "0.3", default-features = false }
+llvm_profparser = { git = "https://github.com/Tangdongle/llvm-profparser.git" }
 object = "0.31"
 num_cpus = "1.15.0"
 proc-macro2 = { version = "1.0", features = ["span-locations"] }
